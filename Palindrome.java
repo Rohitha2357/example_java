@@ -2,7 +2,7 @@ public class Palindrome{
 public boolean isPalindrome(String val){
 boolean isEqual=false;
 String reversed=new StringBuilder(val).reverse().toString();
-if(val.equalsIgnoreCase(reversed){
+if(val.equalsIgnoreCase(reversed)){
 isEqual=true;
 }
 return isTrue;
@@ -18,5 +18,5 @@ System.out.println(" The given string"+input+"is Palindrome");
 }
 else{
 System.out.println("The given string"+input+"is not a palindrome");
-}}
+}}}
 
